@@ -1,6 +1,6 @@
 // 影片列表，請將你的影片檔案放在同一個目錄下，並將檔名寫在這裡
 const videoList = [
-    'video1.mp4',
+    'FOCS269.mp4',
     'video2.mp4',
     'video3.mp4'
 ];
@@ -65,4 +65,5 @@ document.addEventListener('DOMContentLoaded', () => {
     videoPlayer.volume = volumeSlider.value;
     // 載入第一部影片
     loadVideo(currentVideoIndex);
+
 });
