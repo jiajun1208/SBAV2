@@ -1,6 +1,6 @@
 // 影片列表，請將你的影片檔案放在同一個目錄下，並將檔名寫在這裡
 const videoList = [
-    'FOCS269.mp4',
+    'https://raw.githubusercontent.com/jiajun1208/SBAV2/main/FOCS269.mp4',
     'video2.mp4',
     'video3.mp4'
 ];
@@ -67,3 +67,4 @@ document.addEventListener('DOMContentLoaded', () => {
     loadVideo(currentVideoIndex);
 
 });
+
