@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBAV+ 循環播放</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="title-logo">SBAV+</h1>
+
+    <div class="video-container">
+        <video id="video-player" autoplay loop muted playsinline></video>
+        <div id="video-info-overlay">
+            <span id="video-filename"></span>
+            <span id="video-watermark">SBAV+</span>
+        </div>
+        <div class="controls-overlay">
+            <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5">
+            <button id="fullscreen-btn">全螢幕</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
